@@ -1,0 +1,132 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+@media (max-width: 375px){
+
+    body{
+        background: url("images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 375px;
+    }
+}
+
+@media (min-width:376px){
+    body {
+        background: url("images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size:auto;
+        place-content: center;
+        text-align: center;
+        background-position: bottom;
+    }
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+.card__body {
+    text-align: center;
+    place-items: center;
+  }
+
+.card__img-holder img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card {
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    max-width: 27.5rem;
+    place-items: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px 0 hsla(245, 75%, 52% , .11);
+}
+
+.h1{
+    font-size: 1.4rem;
+    padding: 1.3em 0.8em 0;
+}
+
+.p{
+    line-height: 1.6;
+    font-size: 95rem;
+    padding: 0 2.1em 1.4em 2.1em;
+}
+
+.plan-box{
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 0 1.5em 1.5em 1.5em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.plan-box-left{
+    display: flex;
+}
+.plan-box-details {
+    display: auto;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-left: 1.2em;
+    gap: .1em;
+    text-align: left;
+    font-size: .7rem;
+}
+
+.plan-details p {
+    color: var(--clr-neutral-blue-300);
+    font-size: .8rem;
+}
+
+.plan-box-right a {
+    color: var(--clr-primary-bright-blue);
+    font-weight: 700;
+    font-size: .8rem;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.button-holder {
+    background-color:hsl(245, 75%, 52%);
+    text-align: center;
+    gap:  .65em;
+    margin: 1.5em;
+    border-radius: 10px;
+    font-weight: 700;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    padding: .1em;
+}
+
+#buttonletter {
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+#changebutton {
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+}
+
